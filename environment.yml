@@ -1,0 +1,14 @@
+name: loan_3_12
+channels:
+  - defaults
+dependencies:
+  - flask=3.1.0
+  - jinja2=3.1.6
+  - matplotlib=3.10.0
+  - numpy=2.0.1
+  - pandas=2.2.3
+  - python=3.12.11
+  - scikit-learn=1.6.1
+  - seaborn=0.13.2
+  - xgboost=3.0.1
+prefix: C:\Users\Mayur\anaconda3\envs\loan_3_12
