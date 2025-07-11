@@ -76,8 +76,13 @@
         <button type="submit">CHECK LOAN</button>
     </form>
 
-    </div class="result">
-        {{loan_result}}
+    <div class="result">
+    {% if loan_result == "LOAN CAN BE APPROVED" %}
+      <h2 style="color: green;">{{ loan_result }}</h2>
+    {% elif loan_result == "LOAN WILL BE REJECTED" %}
+      <h2 style="color: red;">{{ loan_result }}</h2>
+    {% endif %}
     </div>
+
     </body>
 </html>
